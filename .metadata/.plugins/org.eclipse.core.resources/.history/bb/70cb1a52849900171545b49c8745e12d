@@ -1,0 +1,5 @@
+package org.gati.codetest.userregistration.service;
+
+public class ResgistrationService {
+
+}

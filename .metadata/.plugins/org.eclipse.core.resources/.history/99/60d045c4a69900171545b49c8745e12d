@@ -1,0 +1,14 @@
+package org.gati.codetest.registration.exception;
+
+import javax.ws.rs.core.Response;
+import javax.ws.rs.ext.ExceptionMapper;
+
+public class LoginExpiredExceptionMapper implements ExceptionMapper<LoginExpiredException>{
+
+	@Override
+	public Response toResponse(LoginExpiredException arg0) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

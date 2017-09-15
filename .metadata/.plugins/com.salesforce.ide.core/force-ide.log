@@ -1,0 +1,18 @@
+ WARN [2015-05-12 17:19:46,715] (ConnectionFactory.java:clearCache:217) - No cached connections
+ WARN [2015-05-12 17:19:47,121] (DescribeObjectRegistry.java:clearCache:661) - No cached describes
+ WARN [2015-05-12 17:19:47,121] (MetadataFactory.java:clearCache:126) - No cached metadata stubs
+ WARN [2015-05-14 22:52:58,129] (ConnectionFactory.java:clearCache:217) - No cached connections
+ WARN [2015-05-14 22:52:58,270] (DescribeObjectRegistry.java:clearCache:661) - No cached describes
+ WARN [2015-05-14 22:52:58,270] (MetadataFactory.java:clearCache:126) - No cached metadata stubs
+ WARN [2015-05-15 17:05:01,157] (ConnectionFactory.java:clearCache:217) - No cached connections
+ WARN [2015-05-15 17:05:02,202] (DescribeObjectRegistry.java:clearCache:661) - No cached describes
+ WARN [2015-05-15 17:05:02,218] (MetadataFactory.java:clearCache:126) - No cached metadata stubs
+ WARN [2015-06-07 17:43:16,767] (ConnectionFactory.java:clearCache:217) - No cached connections
+ WARN [2015-06-07 17:43:16,822] (DescribeObjectRegistry.java:clearCache:661) - No cached describes
+ WARN [2015-06-07 17:43:16,825] (MetadataFactory.java:clearCache:126) - No cached metadata stubs
+ WARN [2017-09-11 16:22:24,541] (ConnectionFactory.java:clearCache:217) - No cached connections
+ WARN [2017-09-11 16:22:24,603] (DescribeObjectRegistry.java:clearCache:661) - No cached describes
+ WARN [2017-09-11 16:22:24,609] (MetadataFactory.java:clearCache:126) - No cached metadata stubs
+ WARN [2017-09-14 04:07:50,159] (ConnectionFactory.java:clearCache:217) - No cached connections
+ WARN [2017-09-14 04:07:54,099] (DescribeObjectRegistry.java:clearCache:661) - No cached describes
+ WARN [2017-09-14 04:07:54,109] (MetadataFactory.java:clearCache:126) - No cached metadata stubs

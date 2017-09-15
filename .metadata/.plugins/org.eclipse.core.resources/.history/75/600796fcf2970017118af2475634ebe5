@@ -1,0 +1,9 @@
+package org.gati.codetest.registration.resources;
+
+public class MessageResource {
+	
+	public String getMessages() {
+		return "Hello Gati";
+	}
+
+}

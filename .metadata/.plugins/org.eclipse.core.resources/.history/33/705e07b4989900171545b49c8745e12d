@@ -1,0 +1,43 @@
+package org.gati.codetest.userregistration.resources;
+
+import java.util.List;
+
+import javax.ws.rs.Consumes;
+import javax.ws.rs.GET;
+import javax.ws.rs.POST;
+import javax.ws.rs.Path;
+import javax.ws.rs.PathParam;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import org.gati.codetest.userregistration.model.UserDetail;
+import org.gati.codetest.userregistration.service.ResgistrationService;
+
+
+@Path("/register")
+public class ClientRegistration {
+	
+	ResgistrationService registrationservice = new ResgistrationService(); 
+    
+    @GET
+	@Produces(MediaType.APPLICATION_JSON)
+	public List<UserDetail> getAllUserDetails() {
+		return registrationservice.getAllUserDetails();
+	}
+	
+	@POST
+	@Consumes(MediaType.APPLICATION_JSON)
+	@Produces(MediaType.APPLICATION_JSON)
+	public UserDetail addUser(UserDetail userdetail) {
+		return registrationservice.addUser(userdetail);
+	}
+	
+	@GET
+	@Path("/{test}")
+	@Produces(MediaType.APPLICATION_JSON)
+	public UserDetail getTest(@PathParam("test") long userid,) {		
+		UserDetail userdetail= registrationservice.getMessage(userid);
+		userdetail.addLink("","self");
+	}
+	
+}

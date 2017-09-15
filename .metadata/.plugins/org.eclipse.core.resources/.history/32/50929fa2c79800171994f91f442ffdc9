@@ -1,0 +1,37 @@
+package org.gati.codetest.registration.resources;
+
+import java.util.List;
+
+import javax.ws.rs.GET;
+import javax.ws.rs.Path;
+import javax.ws.rs.Produces;
+import javax.ws.rs.core.MediaType;
+
+import org.gati.codetest.registration.model.Message;
+import org.gati.codetest.registration.service.MessageService;
+
+
+@Path("/messages")
+public class MessageResource {
+	
+	MessageService messageservice = new MessageService();
+	
+	/*@GET
+	@Produces(MediaType.TEXT_PLAIN)
+	public String getMessages() {
+		return "Hello Gati";
+	}*/
+	
+	@GET
+	@Produces(MediaType.APPLICATION_XML)
+	public List<Message> getMessages1() {
+		return messageservice.getAllMessages();
+	}
+	
+	@GET
+	@Path("/test")
+	@Produces(MediaType.TEXT_PLAIN)
+	public String getMessages() {
+		return "Testing 123";
+	}
+}

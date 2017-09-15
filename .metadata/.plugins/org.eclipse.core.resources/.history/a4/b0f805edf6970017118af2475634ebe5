@@ -1,0 +1,5 @@
+package org.gati.codetest.registration.service;
+
+public class MessageService {
+
+}

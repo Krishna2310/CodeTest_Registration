@@ -1,0 +1,5 @@
+package org.gati.codetest.registration.resources;
+
+public class InjectDemoResource {
+
+}

@@ -1,0 +1,30 @@
+package org.gati.codetest.userregistration.service;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Map;
+
+import org.gati.codetest.userregistration.model.Message;
+import org.gati.codetest.userregistration.database.DatabaseClass;
+import org.gati.codetest.userregistration.model.UserDetail;;
+
+public class ResgistrationService {
+	
+	private Map<Long, UserDetail> userdetails = DatabaseClass.getUserDetails();
+	
+	public RegistrationService (){
+		userdetails.put(1L, new UserDetail(1L,"Hello World","Gati"));
+		userdetails.put(2L, new UserDetail(2L,"Hello World2","Gati2"));
+	}
+	
+	public List<UserDetail> getAllUserDetails() {
+		return new ArrayList<UserDetail>(userdetails.values());
+	}
+	
+	public UserDetail addUserDetail(UserDetail userdetail){
+		userdetail.setId(userdetails.size()+1);
+		userdetails.put(userdetail.getId(), userdetail);
+		return userdetail;
+	}
+
+}

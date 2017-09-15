@@ -1,0 +1,12 @@
+0:0:0:0:0:0:0:1 - - [16/Sep/2017:05:54:01 +0530] "GET /userregistration/webapi/register/4 HTTP/1.1" 500 4508
+127.0.0.1 - - [16/Sep/2017:06:00:59 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [16/Sep/2017:06:01:19 +0530] "GET /userregistration/webapi/register/ HTTP/1.1" 200 229
+0:0:0:0:0:0:0:1 - - [16/Sep/2017:06:01:50 +0530] "GET /userregistration/webapi/register/1 HTTP/1.1" 500 5949
+127.0.0.1 - - [16/Sep/2017:06:02:36 +0530] "GET / HTTP/1.1" 404 951
+127.0.0.1 - - [16/Sep/2017:06:04:03 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [16/Sep/2017:06:04:12 +0530] "GET /userregistration/webapi/register/ HTTP/1.1" 200 229
+0:0:0:0:0:0:0:1 - - [16/Sep/2017:06:04:17 +0530] "GET /userregistration/webapi/register/1 HTTP/1.1" 200 112
+0:0:0:0:0:0:0:1 - - [16/Sep/2017:06:04:22 +0530] "GET /userregistration/webapi/register/2 HTTP/1.1" 200 114
+0:0:0:0:0:0:0:1 - - [16/Sep/2017:06:04:28 +0530] "GET /userregistration/webapi/register/3 HTTP/1.1" 404 94
+0:0:0:0:0:0:0:1 - - [16/Sep/2017:06:04:38 +0530] "POST /userregistration/webapi/register/ HTTP/1.1" 200 193
+0:0:0:0:0:0:0:1 - - [16/Sep/2017:06:04:46 +0530] "GET /userregistration/webapi/register/3 HTTP/1.1" 200 193

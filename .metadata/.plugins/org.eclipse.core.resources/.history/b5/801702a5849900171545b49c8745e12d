@@ -1,0 +1,12 @@
+package org.gati.codetest.userregistration.service;
+
+import java.util.Map;
+
+import org.gati.codetest.userregistration.database.DatabaseClass;
+import org.gati.codetest.userregistration.model.UserDetail;;
+
+public class ResgistrationService {
+	
+	private Map<Long, UserDetail> userdetails = DatabaseClass.getUserDetails();
+
+}
